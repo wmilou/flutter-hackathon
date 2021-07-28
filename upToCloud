@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# build flutter web command 
+flutter build web
+
+# up to cloud 
+ibmcloud cf push 

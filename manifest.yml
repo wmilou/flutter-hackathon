@@ -1,0 +1,6 @@
+applications:
+  - name: Zero Hunger App
+memory: 256M
+path: build/web/
+buildpack: staticfile_buildpack 
+random-routes: true
